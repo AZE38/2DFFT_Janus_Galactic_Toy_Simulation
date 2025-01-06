@@ -23,11 +23,11 @@ the initial density repartition of the galaxy can be exponential disk , gaussian
 
 EXAMPLES: 
 
-    Image  Curve V_circ without or very low density of negative masses : 
+      Curve V_circ without or very low density of negative masses : 
     ![image](https://github.com/user-attachments/assets/f768da25-a18a-4180-9f6c-2a8546aeefbd)
 
 
-    Image Curve V_circ with high negative masses (rising effect at large radius from the hole confinement):    
+     Curve V_circ with high negative masses (rising effect at large radius from the hole confinement):    
     ![image](https://github.com/user-attachments/assets/65a3a9f1-bdad-436c-940c-e20742804473)
 
 
