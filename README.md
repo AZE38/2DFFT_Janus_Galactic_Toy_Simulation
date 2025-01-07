@@ -19,7 +19,7 @@ on the positive masse galactic fluids , we impose some random initial condition 
 
 in a future work we need to derive a real steady state of the galaxy too.
 
-the initial density repartition of the galaxy can be exponential disk , gaussian 
+the initial density repartition of the galaxy can be exponential disk , gaussian, other...
 
 EXAMPLES: 
 
