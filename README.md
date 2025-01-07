@@ -59,7 +59,7 @@ Running the simulation , we can observe some spirals formations or different gal
 ![stableAnisotropicNoRot](https://github.com/user-attachments/assets/fb7d5b4b-8fac-4921-b01e-1b4ade37e5e0)
 
 
-3: Simple Spiral with Negative mass environnement :
+3: Simple Spiral with Negative mass environnement display on the same image:
 
 ![Spiral-resized](https://github.com/user-attachments/assets/31d35b2d-f637-47e4-a53d-00cb9cafaa2a)
 
