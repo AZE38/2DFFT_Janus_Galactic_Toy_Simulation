@@ -1,4 +1,4 @@
-# 2DFFT_Janus_Galactic_Toy_Simulation
+# 2DFFT_Janus_Galactic_Toy_Simulation Python NoteBook
 
 2D Toy model Janus Fluids anti gravity Effects (Jean Pierre Petit Newtonian model) : "IN PROGRESS"
 
