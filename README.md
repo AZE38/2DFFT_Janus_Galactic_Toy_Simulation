@@ -14,7 +14,7 @@ Example of initial state of Negative Density FLuid around the fixed galaxy:
 ![image](https://github.com/user-attachments/assets/2624d861-6cac-422b-bdd9-5d889abcc8a2)
 
 
-on the positive masse galaxtic fluids , we impose some random initial condition with anisotropic dispersion , and calculate the equilibrium of the pur circular velocity orbit of the initial disk shaped density on the combined potential of positive and negative masses using Fast Fourier Transform on periodic domain.
+on the positive masse galactic fluids , we impose some random initial condition with anisotropic dispersion , and calculate the equilibrium of the pur circular velocity orbit of the initial disk shaped density on the combined potential of positive and negative masses using Fast Fourier Transform on periodic domain.
 
 
 in a future work we need to derive a real steady state of the galaxy too.
