@@ -35,7 +35,7 @@ EXAMPLES:
 
 
 
-Running the simulation , we can observe some spirals formations or different galaxy structure , in function of initials conditions with low dissipation , 1) and 2) dont display the negative mass fluids but its present in simulation:
+Running the simulation , we can observe some spirals formations or different galaxy structure , in function of initials conditions with low dissipation ( Image1 and Image2 dont display the negative mass fluids but its present in simulation) :
 
 1: initial Large Scale Radius, low dispersion + pur circular velocity equilibrium:
 
