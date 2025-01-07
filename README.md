@@ -6,7 +6,7 @@ axisymmetrical "unphysical" Test model to play with anti gravity effect on a dis
 
 
 
-in first we initialise the density with random exp disk shaped galactic fluids of positive mass wihtout velocity.
+in first we initialize the density with random exp disk shaped galactic fluids of positive mass wihtout velocity.
 
 To initialise the negative points mass Fluids population around the galaxy we perform " Backward integration technics " and imposed Boundary condition at the border of a periodic 2D box domain , solving by iteration and self consitency , we converge on a final density and velocity distribution that is in steady states , around the fixed initial disk shaped of positive mass (easly applicable to a random 3D shape for futur simulation in 3D).
  
