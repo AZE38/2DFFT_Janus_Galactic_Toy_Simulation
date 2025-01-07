@@ -99,6 +99,8 @@ Images in log colors
  
  9 - Make better rendering of particles
 
+ 10- Plot the initial densities reparition with radial averaging to see density/radius curve.
+
 # Comments
 this Code produce some density plot at interval dt , and make a gif of the result skipping some frame (Beware of the stroboscopic effect illusion on the rotation of the galaxy on the gif with skipped frames !! )
 
