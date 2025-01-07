@@ -122,17 +122,19 @@ They start from steady state without rotation , and add some circular velocity a
 but here in this simulation , its possible to find some steady state solution with some large radius anisotropic with good value of dispersion but when assigning the profil of circular velocity of J.Petit - F.Lhanseat to the cluster with different value of peak characteristics , we cant find same spiral solution like in their simulation.
 
 we find some spiral structure when we start from initial large scale radius exponential, gaussian  density profil , with high circular equilibrium velocity component and very low dispersion component.
-
-(may be we have calculs error , or artifact from our periodic domain ?).
+Their initial state configuration of negative differt from the current simulation
+may be we have calculs error , or artifact from our periodic domain. 
 
 Conclusion : 
 The code appears to produce some features of the galactic dynamics ,
 like the rising effect of the velocity from the hole confinement of negative masse at large radius , and the spirals structure persists for a long time.
 
-    Global structure of galaxy strongly depends on the initial condition given.
+Global structure of galaxy strongly depends on the initial condition given.
 
 keep in mind that our simulation is unphysical because of the 2D sheet domain with 3D FFT Poisson concept , we can explore some parameters and hope that in Full
 3D simulation , some characterstics of the dynamic are present too. 
+
+*Using Jp.Petit newtonnian approximaiton , it's seems to be equivalent to the anti plasma case of dirac milne universe , with mi = |mg|.*
 
 
 
