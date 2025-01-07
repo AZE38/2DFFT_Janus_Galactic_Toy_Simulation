@@ -126,7 +126,7 @@ Conclusion : The code seem to produce some didactic features of the galactic dyn
 
     Global structure of galaxy strongly depends on the initial condition given.
 
-keepind in mind that our simulation is unphysical because of the 2D sheet domain with 3D FFT Poisson concept , we can explore some parameters and hope that in Full
+keep in mind that our simulation is unphysical because of the 2D sheet domain with 3D FFT Poisson concept , we can explore some parameters and hope that in Full
 3D simulation , some characterstics of the dynamic are present too. 
 
 
