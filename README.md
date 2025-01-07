@@ -1,6 +1,6 @@
 # 2DFFT_Janus_Galactic_Toy_Simulation Python NoteBook
 
-2D Toy model Janus Fluids anti gravity Effects (Jean Pierre Petit Newtonian model) : "IN PROGRESS"
+2D Toy model Janus Fluids anti gravity Effects (Jean Pierre Petit Newtonian model) : "IN PROGRESS - No peer review "
 
 axisymmetrical "unphysical" Test model to play with anti gravity effect on a disk shaped rotating disk galaxy and 2D (pseudo-3D Poisson) FFT solver and leapfrog update.
 
