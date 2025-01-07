@@ -23,35 +23,49 @@ the initial density repartition of the galaxy can be exponential disk , gaussian
 
 EXAMPLES: 
 
-      Curve V_circ without or very low density of negative masses : 
-    ![image](https://github.com/user-attachments/assets/f768da25-a18a-4180-9f6c-2a8546aeefbd)
+     # Curve V_circ without or very low density of negative masses : 
+      
+   ![Capture d’écran 2025-01-07 010017](https://github.com/user-attachments/assets/c7d46851-83cd-4474-948f-f3b7c1183930)
 
 
-     Curve V_circ with high negative masses (rising effect at large radius from the hole confinement):    
-    ![image](https://github.com/user-attachments/assets/65a3a9f1-bdad-436c-940c-e20742804473)
+
+    # Curve V_circ with high negative masses (rising effect at large radius from the hole confinement):    
+     
+   ![Capture d’écran 2025-01-07 010038](https://github.com/user-attachments/assets/d525016b-2077-43b3-a031-9c5fdf79d796)
+
 
 
 Running the simulation , we can observe some spirals formations or different galaxy structure , in function of initials conditions with low dissipation , 1) and 2) dont display the negative mass fluids but its present in simulation:
 
-1: initial Large Scale Radius, low dispersion + pur circular velocity equilibrium 
+1: initial Large Scale Radius, low dispersion + pur circular velocity equilibrium:
+
   a.  ![Capture d’écran 2025-01-06 121007](https://github.com/user-attachments/assets/827ef366-6cf2-4061-b26a-90200166adc2)
 
   NGC6684 comparison :
-  b.![image](https://github.com/user-attachments/assets/6114eaa2-cb01-4835-afd2-29f15db47810)
-
-  c. ![image](https://github.com/user-attachments/assets/58faec3d-1653-44c0-9baa-6ed30304c9c8)
+  
+   b.![image](https://github.com/user-attachments/assets/6114eaa2-cb01-4835-afd2-29f15db47810)
+ 
+   c. ![image](https://github.com/user-attachments/assets/58faec3d-1653-44c0-9baa-6ed30304c9c8)
 
   d. 3-Arms to "NGC 6684" 
-  ![Density_animation33](https://github.com/user-attachments/assets/8bbd7b8d-3fd3-4f11-818c-9dde94e7ba94)
+  
+   ![Density_animation33](https://github.com/user-attachments/assets/8bbd7b8d-3fd3-4f11-818c-9dde94e7ba94)
 
 
 
 
 2: No Rotation , Steady state Anisotropic
+
 ![stableAnisotropicNoRot](https://github.com/user-attachments/assets/fb7d5b4b-8fac-4921-b01e-1b4ade37e5e0)
 
 
-3: See other Gif or image examples into the repo..
+3: Simple Spiral with Negative mass environnement :
+
+![Capture d’écran 2025-01-07 011327](https://github.com/user-attachments/assets/355e295e-6a34-4612-8600-ddb92a0e5576)
+
+(From the Spiral.Gif in repo examples)
+
+
 
   
 
@@ -59,15 +73,18 @@ Running the simulation , we can observe some spirals formations or different gal
 
 Images in log colors
 
-Potential Issues :
-
+Potential Issues 
     0 - Need to review code and check errors calculs
 
-    1 - when making the backwards integrations methods , we impose the same distribution on the boundary of the simulation, if the domain is "circular" its good , but we have a box domain and for more accurate steady state (when negative mass density is high), we need to shift a little bit the distribution function in energy (and anistropy ?) to reach a better steady state (" à faire " futur work). The point of view used to solve the potential is reverted and the galaxy act as the negative mass on the backwarded fluids, to make easier the implementation and change nothing on the result.., its just observer dependent with same anti gravity effect.
+    1 - when making the backwards integrations methods , we impose the same distribution on the boundary of the simulation, if the domain is "circular" its good , but we have a box domain and for more accurate steady state (when negative mass density is high),
+    we need to shift a little bit the distribution function in energy (and anistropy ?) to reach a better steady state (" à faire " futur work). The point of view used to solve the potential is reverted and the galaxy act as the negative mass on the backwarded fluids,
+    to make easier the implementation and change nothing on the result.., its just observer dependent with same anti gravity effect.
 
-    in fact the boundary distribution function need to be calculate with the JCM model after the Very Large Structures formation, its the residual gas , not collapsed into Proto Giant negative stars (Janus Cosmological Model). ("à faire") At this time we have a simple truncated Maxwellian keeping only hign energy , that are the unbounded particle residual gas.
+    in fact the boundary distribution function need to be calculate with the JCM model after the Very Large Structures formation, its the residual gas , not collapsed into Proto Giant negative stars (Janus Cosmological Model). ("à faire")
+    At this time we have a simple truncated Maxwellian keeping only hign energy , that are the unbounded particle residual gas.
 
-    2 - the galaxy structure depend on initial condition , high or low anistropic dispersion , initial added rotation , value of negative density and velocity.   Need explorations , what if we start more from steady state without rotation from spherical galaxy ? multiple galaxies interaction ? to give realistic initial rotation impulse ?
+    2 - the galaxy structure depend on initial condition , high or low anistropic dispersion , initial added rotation , value of negative density and velocity.   Need explorations , what if we start more from steady state without rotation from spherical galaxy ?
+    multiple galaxies interaction ? to give realistic initial rotation impulse ?
 
     3 - We use 3D Poisson equation and solve it in a "slice" 2D periodic domain, It's UNPHYSICAL but we can see some interresting feature on the circular velocity curve rising due to negative density hole effect, and less dissipation of spirals arms structure.
 
