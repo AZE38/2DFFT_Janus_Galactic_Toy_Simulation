@@ -61,9 +61,8 @@ Running the simulation , we can observe some spirals formations or different gal
 
 3: Simple Spiral with Negative mass environnement :
 
-![Capture d’écran 2025-01-07 011327](https://github.com/user-attachments/assets/355e295e-6a34-4612-8600-ddb92a0e5576)
+![Spiral-resized](https://github.com/user-attachments/assets/31d35b2d-f637-47e4-a53d-00cb9cafaa2a)
 
-(From the Spiral.Gif in repo examples)
 
 
 
