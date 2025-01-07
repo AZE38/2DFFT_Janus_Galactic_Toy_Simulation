@@ -122,8 +122,10 @@ They start from steady state without rotation , and add some circular velocity a
 but here in this simulation , its possible to find some steady state solution with some large radius anisotropic with good value of dispersion but when assigning the profil of circular velocity of J.Petit - F.Lhanseat to the cluster with different value of peak characteristics , we cant find same spiral solution like in their simulation.
 
 we find some spiral structure when we start from initial large scale radius exponential, gaussian  density profil , with high circular equilibrium velocity component and very low dispersion component.
-Their initial state configuration of negative differt from the current simulation
-may be we have calculs error , or artifact from our periodic domain. 
+
+Their initial state configuration of negative density differt from the current simulation , they solve a "self graviting" systeme between both fluids where the negative mass "want to fall" into the galaxy (and they find exactly this , when their density mass of negative fluids is too high , it collapse into a cluster and the positive masse take place around.. But in fact this negative density fluids is more "homogene and hot" , because its a part of the gas that have not collapse into the Proto Giant stars of the VLS
+and so is far above the Jeans instability limits ?!
+...or may be we have calculs error , or artifact from our periodic domain. 
 
 Conclusion : 
 The code appears to produce some features of the galactic dynamics ,
