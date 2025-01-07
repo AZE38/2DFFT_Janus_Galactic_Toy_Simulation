@@ -72,33 +72,34 @@ Running the simulation , we can observe some spirals formations or different gal
 
 Images in log colors
 
-Potential Issues 
+# Potential Issues.
 
-    0 - Need to review code and check errors calculs
-    
-    1 - when making the backwards integrations methods , we impose the same distribution on the boundary of the simulation, if the domain is "circular" its good , but we have a box domain and for more accurate steady state (when negative mass density is high),
-    we need to shift a little bit the distribution function in energy (and anistropy ?) to reach a better steady state (" à faire " futur work). The point of view used to solve the potential is reverted and the galaxy act as the negative mass on the backwarded fluids,
-    to make easier the implementation and change nothing on the result.., its just observer dependent with same anti gravity effect.
-    in fact the boundary distribution function need to be calculate with the JCM model after the Very Large Structures formation, its the residual gas , not collapsed into Proto Giant negative stars (Janus Cosmological Model). ("à faire")
-    At this time we have a simple truncated Maxwellian keeping only hign energy , that are the unbounded particle residual gas.
+ 0 - Need to review code and check errors calculs
+ 
+ 1 - when making the backwards integrations methods , we impose the same distribution on the boundary of the simulation, if the domain is "circular" its good , but we have a box domain and for more accurate steady state (when negative mass density is high),
+ we need to shift a little bit the distribution function in energy (and anistropy ?) to reach a better steady state (" à faire " futur work). The point of view used to solve the potential is reverted and the galaxy act as the negative mass on the backwarded fluids,
+ to make easier the implementation and change nothing on the result.., its just observer dependent with same anti gravity effect.
+ in fact the boundary distribution function need to be calculate with the JCM model after the Very Large Structures formation, its the residual gas , not collapsed into Proto Giant negative stars (Janus Cosmological Model). ("à faire")
+ At this time we have a simple truncated Maxwellian keeping only hign energy , that are the unbounded particle residual gas.
+ 
+ 2 - the galaxy structure depend on initial condition , high or low anistropic dispersion , initial added rotation , value of negative density and velocity.   Need explorations , what if we start more from steady state without rotation from spherical galaxy ?
+ multiple galaxies interaction ? to give realistic initial rotation impulse ?
+ 
+ 3 - We use 3D Poisson equation and solve it in a "slice" 2D periodic domain, It's UNPHYSICAL but we can see some interresting feature on the circular velocity curve rising due to negative density hole effect, and less dissipation of spirals arms structure.
+ 
+ 4- Need to add some circular rotation plot curve during the simulation steps.
+ 
+ 5- From bi metric point of view , we keep symmetrical spacetime factors between both metrics -> [g/h]^1/2 = 1.
+ 
+ 6 - Need to review code and check errors calculs a second time !! ;) 
+ 
+ 7 - Need to list some fixed value paramters that produce few differents galaxies types, and find mechanism of the formation.
+ 
+ 8 - Need to add multiple component fluids of galaxy , like stars + gas .
+ 
+ 9 - Make better rendering of particles
 
-    2 - the galaxy structure depend on initial condition , high or low anistropic dispersion , initial added rotation , value of negative density and velocity.   Need explorations , what if we start more from steady state without rotation from spherical galaxy ?
-    multiple galaxies interaction ? to give realistic initial rotation impulse ?
-
-    3 - We use 3D Poisson equation and solve it in a "slice" 2D periodic domain, It's UNPHYSICAL but we can see some interresting feature on the circular velocity curve rising due to negative density hole effect, and less dissipation of spirals arms structure.
-
-    4- Need to add some circular rotation plot curve during the simulation steps.
-
-    5- From bi metric point of view , we keep symmetrical spacetime factors between both metrics -> [g/h]^1/2 = 1.
-
-    6 - Need to review code and check errors calculs a second time !! ;) 
-
-    7 - Need to list some fixed value paramters that produce few differents galaxies types, and find mechanism of the formation.
-
-    8 - Need to add multiple component fluids of galaxy , like stars + gas .
-
-    9 - Make better rendering of particles
-
+# Comments
 this Code produce some density plot at interval dt , and make a gif of the result skipping some frame (Beware of the stroboscopic effect illusion on the rotation of the galaxy on the gif with skipped frames !! )
 
 You can run the code in Notebook , modify parameters and/or adapt your own intial function or adapt the code as needed.
@@ -112,8 +113,7 @@ PS:
 we can Read from another Simulation test : 
 "Anyway, F.Lhandseat adjusted the conditions empirically and found that the things looked good when the characteristic rotation velocity (the maximum value) was   about ten times smaller than the mean thermal in the cluster (positive mass sub-system)"
 
-They start from steady state without rotation , and add some circular velocity according to " r * cp.exp(-r / R0) " expression and the condition of smaller characteristic rotation velocity that dispersion
-when assigning curve like J.Petit - F.Lhanseat like 
+They start from steady state without rotation , and add some circular velocity according to " r * cp.exp(-r / R0) " expression and the condition of smaller characteristic rotation velocity
 
 but here in this simulation , its possible to find some steady state solution with some large radius anisotropic with good value of dispersion but when assigning the profil of circular velocity of J.Petit - F.Lhanseat to the cluster with different value of peak characteristics , we cant find same spiral solution like in their simulation.
 
