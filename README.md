@@ -73,7 +73,9 @@ Running the simulation , we can observe some spirals formations or different gal
 Images in log colors
 
 Potential Issues 
+
     0 - Need to review code and check errors calculs
+    
     1 - when making the backwards integrations methods , we impose the same distribution on the boundary of the simulation, if the domain is "circular" its good , but we have a box domain and for more accurate steady state (when negative mass density is high),
     we need to shift a little bit the distribution function in energy (and anistropy ?) to reach a better steady state (" à faire " futur work). The point of view used to solve the potential is reverted and the galaxy act as the negative mass on the backwarded fluids,
     to make easier the implementation and change nothing on the result.., its just observer dependent with same anti gravity effect.
