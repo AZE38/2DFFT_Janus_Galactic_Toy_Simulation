@@ -123,7 +123,7 @@ we find some spiral structure when we start from initial large scale radius expo
 
 Conclusion : 
 The code seem to produce some didactic features of the galactic dynamics ,
-like the rising effect of the velocity from the hole confinement of negative masse at large radius , and spirals remain for a long time.
+like the rising effect of the velocity from the hole confinement of negative masse at large radius , and the spirals structure persists for a long time.
 
     Global structure of galaxy strongly depends on the initial condition given.
 
