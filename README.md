@@ -101,6 +101,8 @@ Images in log colors
 
  10- Plot the initial densities reparition with radial averaging to see density/radius curve.
 
+ 11- Explore the distribution function f(x,v) of the set of steady state initial negative density fluid (To feel what analytical expression can be used to derive a real vlasov steady state , futur work..)
+
 # Comments
 this Code produce some density plot at interval dt , and make a gif of the result skipping some frame (Beware of the stroboscopic effect illusion on the rotation of the galaxy on the gif with skipped frames !! )
 
