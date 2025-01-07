@@ -122,7 +122,7 @@ we find some spiral structure when we start from initial large scale radius expo
 (may be we have calculs error , or artifact from our periodic domain ?).
 
 Conclusion : 
-The code seem to produce some didactic features of the galactic dynamics ,
+The code appears to produce some importants features of the galactic dynamics ,
 like the rising effect of the velocity from the hole confinement of negative masse at large radius , and the spirals structure persists for a long time.
 
     Global structure of galaxy strongly depends on the initial condition given.
