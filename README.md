@@ -47,7 +47,7 @@ Running the simulation , we can observe some spirals formations or different gal
  
    c. ![image](https://github.com/user-attachments/assets/58faec3d-1653-44c0-9baa-6ed30304c9c8)
 
-  d. 3-Arms to "NGC 6684" 
+  d. 3-Arms to "NGC 6684" type like: 
   
    ![Density_animation33](https://github.com/user-attachments/assets/8bbd7b8d-3fd3-4f11-818c-9dde94e7ba94)
 
