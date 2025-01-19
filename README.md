@@ -140,6 +140,9 @@ keep in mind that our simulation is unphysical because of the 2D sheet domain wi
 
 *Using Jp.Petit newtonnian approximaiton , it's seems to be equivalent to the anti plasma case of dirac milne universe , with mi = |mg|.*
 
+NEWS : Check the V2 version with Osipkov - Merrit anisotropic distribution function solving steady state vlasov equation
+https://github.com/AZE38/2DFFT_Janus_Galactic_Toy_Simulation/blob/main/SteadyState_Galaxy_init_V2.pdf
+-
 
 
 
