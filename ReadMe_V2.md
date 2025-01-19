@@ -1,4 +1,6 @@
-We derive the steady state function distribution from Osipkov-Merrit anisotropic model. ( Jpp_NoteBook_V2.ipynb file , will be Uploaded soon.. )
+" No Peer reviewed  "
+
+We derive the steady state function distribution from Osipkov-Merrit anisotropic model.
 
 taking : 
 
