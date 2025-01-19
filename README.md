@@ -121,7 +121,7 @@ we can Read from another Simulation test :
 
 They start from steady state without rotation , and add some circular velocity according to " r * cp.exp(-r / R0) " expression and the condition of smaller characteristic rotation velocity
 
-but here in this simulation , its possible to find some steady state solution with some large radius anisotropic with good value of dispersion but when assigning the profil of circular velocity of J.Petit - F.Lhanseat to the cluster with different value of peak characteristics , we cant find same spiral solution like in their simulation (working with real steady state initialisation of galaxy ? check futur Version with real steady state init).
+but here in this simulation , its possible to find some steady state solution with some large radius anisotropic with good value of dispersion but when assigning the profil of circular velocity of J.Petit - F.Lhanseat to the cluster with different value of peak characteristics , we cant find same spiral solution like in their simulation (working with real steady state initialisation of galaxy , check ReadMe_V2 density derivation from Osipkov-Merrit model).
 
 we find some spiral structure when we start from initial large scale radius exponential, gaussian  density profil , with high circular equilibrium velocity component and very low dispersion component.
 
