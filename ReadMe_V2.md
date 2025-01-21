@@ -17,7 +17,7 @@ We can truncate the distribution to keep only bounded particles :
 
 ![image](https://github.com/user-attachments/assets/011e87fc-e501-4ebe-b739-970dd25f4917)
 
-after some calculations with "u,v" space coordinate tricks we can find :
+after some calculations we can find :
 
 ![image](https://github.com/user-attachments/assets/26d47def-189a-4581-8e3c-02683c024c2c)
 
